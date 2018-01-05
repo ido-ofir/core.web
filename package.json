@@ -1,6 +1,6 @@
 {
   "name": "core.web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The common web client for core.",
   "main": "source/App.jsx",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "core.constructor": "^1.0.1",
     "core.import.baobab": "^2.4.3",
     "core.import.create-react-class": "^0.1.4",
     "core.import.prop-types": "^0.1.4",
@@ -21,13 +22,13 @@
     "core.loader.channels": "0.0.1",
     "core.loader.components": "0.0.1",
     "core.loader.events": "0.0.1",
-    "core.loader.extend": "0.0.1",
     "core.loader.hooks": "0.0.1",
     "core.loader.imports": "0.0.1",
     "core.loader.modules": "0.0.1",
     "core.loader.tree": "0.0.1",
     "core.loader.types": "0.0.2",
     "core.loader.views": "0.0.1",
+    "core.plugin.bindings": "0.0.1",
     "core.plugin.build": "0.0.1",
     "core.plugin.emitter": "0.0.1",
     "core.plugin.get-definition-object": "0.0.1",
@@ -38,7 +39,6 @@
     "core.plugin.test": "0.0.1",
     "core.plugin.type": "0.0.1",
     "core.plugin.uuid": "0.0.2",
-    "core.skeleton": "0.0.2",
     "core.type.action": "0.0.1",
     "core.type.component": "0.0.1",
     "core.type.module": "0.0.1",

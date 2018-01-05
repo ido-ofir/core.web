@@ -1,6 +1,6 @@
 
 
-let Core = require('core.skeleton');
+let Core = require('core.constructor');
 
 let core = new Core({
     name: 'core.web',
@@ -11,6 +11,7 @@ let core = new Core({
         require('core.plugin.injector'),
         require('core.plugin.monitor'),
         require('core.plugin.get-definition-object'),
+        require('core.loader.injector'),
         require('core.loader.channels'),
         require('core.loader.hooks'),
         require('core.plugin.import'),
@@ -25,6 +26,8 @@ let core = new Core({
         require('core.plugin.build'),
         require('core.loader.types'),
         require('core.plugin.prepend'),
+        require('core.plugin.tree'),
+        require('core.plugin.bindings'),
         require('core.type.module'),
         require('core.type.component'),
         require('core.type.action'),
@@ -38,5 +41,7 @@ let core = new Core({
         require('core.plugin.test'),
     ]
 });
+
+window.core = core;
 
 module.exports = core;
