@@ -43,4 +43,6 @@ let core = new Core({
 
 window.core = core;
 
+core.version = "1.0.5";
+
 module.exports = core;
