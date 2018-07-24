@@ -1,6 +1,6 @@
 {
     "name": "core.web",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "The common web client for core.",
     "main": "source/App.jsx",
     "scripts": {
@@ -26,7 +26,7 @@
         "core.loader.imports": "1.0.0",
         "core.loader.injector": "1.0.0",
         "core.loader.modules": "1.0.0",
-        "core.loader.tree": "1.0.2",
+        "core.loader.tree": "1.0.3",
         "core.loader.types": "1.0.0",
         "core.loader.views": "1.0.0",
         "core.plugin.bindings": "1.0.1",
@@ -39,7 +39,7 @@
         "core.plugin.tree": "1.0.0",
         "core.plugin.type": "1.0.4",
         "core.plugin.uuid": "1.0.0",
-        "core.type.action": "1.0.4",
+        "core.type.action": "1.0.5",
         "core.type.component": "1.0.4",
         "core.type.module": "1.0.3",
         "core.type.style": "1.0.1",
