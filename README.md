@@ -60,24 +60,28 @@ module.exports = {
 module.exports = {
     name: 'somePlugin',
     modules: [
-        require('./modules/moduleA'),
-        require('./modules/moduleB')
+        require('./modules/moduleA')
     ],
     components: [
-        require('./components/ComponentA'),
-        require('./components/ComponentB')
+        require('./components/ComponentA')
     ],
     actions: [
-        require('./actions/actionA'),
-        require('./actions/actionB')
+        require('./actions/actionA')
     ],
     views: [
-        require('./views/ViewA'),
-        require('./views/ViewB')
+        require('./views/ViewA')
     ],
     types: [
-        require('./types/typeA'),
-        require('./types/typeB')
-    ]
+        require('./types/typeA')
+    ],
+    init(definition, done){
+        
+        let somePlugin = {
+            doStuff(){ ... }
+        };
+        
+        done(somePlugin);
+    }
 }
+
 ```
