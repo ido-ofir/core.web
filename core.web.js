@@ -43,6 +43,6 @@ let core = new Core({
 
 window.core = core;
 
-core.version = "1.0.5";
+core.version = require('./package.json').version;
 
 module.exports = core;

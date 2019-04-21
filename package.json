@@ -1,6 +1,6 @@
 {
     "name": "core.web",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "The common web client for core.",
     "main": "source/App.jsx",
     "scripts": {
@@ -16,7 +16,7 @@
         "core.import.create-react-class": "0.1.5",
         "core.import.prop-types": "0.1.4",
         "core.import.q": "1.5.0",
-        "core.import.react": "16.2.0",
+        "core.import.react": "16.3.0",
         "core.import.react-dom": "16.2.0",
         "core.loader.actions": "1.0.0",
         "core.loader.channels": "1.0.0",
@@ -29,7 +29,7 @@
         "core.loader.tree": "1.0.3",
         "core.loader.types": "1.0.0",
         "core.loader.views": "1.0.0",
-        "core.plugin.bindings": "1.0.1",
+        "core.plugin.bindings": "1.0.2",
         "core.plugin.emitter": "1.0.1",
         "core.plugin.import": "1.0.0",
         "core.plugin.injector": "1.0.1",
