@@ -1,13 +1,14 @@
 {
     "name": "core.web",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "The common web client for core.",
     "main": "source/App.jsx",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "hot": "./node_modules/.bin/webpack-dev-server"
     },
-    "author": "",
+    "author": "Ido Ofir",
+    "repository": "https://github.com/ido-ofir/core.web.git",
     "license": "ISC",
     "devDependencies": {},
     "dependencies": {
@@ -26,7 +27,7 @@
         "core.loader.imports": "1.0.0",
         "core.loader.injector": "1.0.0",
         "core.loader.modules": "1.0.0",
-        "core.loader.tree": "1.0.3",
+        "core.loader.tree": "1.0.4",
         "core.loader.types": "1.0.0",
         "core.loader.views": "1.0.0",
         "core.plugin.bindings": "1.0.4",
