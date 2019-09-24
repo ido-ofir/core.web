@@ -1,6 +1,6 @@
 {
     "name": "core.web",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "The common web client for core.",
     "main": "source/App.jsx",
     "scripts": {
@@ -12,7 +12,7 @@
     "license": "ISC",
     "devDependencies": {},
     "dependencies": {
-        "core.constructor": "1.0.3",
+        "core.constructor": "1.0.4",
         "core.import.baobab": "2.4.3",
         "core.import.create-react-class": "0.1.5",
         "core.import.prop-types": "0.1.4",
